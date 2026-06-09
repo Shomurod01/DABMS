@@ -131,9 +131,8 @@ Then open **http://localhost:5173** in your browser.
 | Backend       | Node.js, Express.js                           |
 | Database      | MongoDB + Mongoose                            |
 | Auth          | JWT + bcryptjs                                |
-| Payments      | PayPal REST API                               |
 | Image storage | Cloudinary                                    |
-| Email         | Nodemailer                                    |
+
 
 ---
 
