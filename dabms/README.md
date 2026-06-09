@@ -10,8 +10,6 @@ You'll need accounts on these free services:
 
 - **MongoDB Atlas** — https://mongodb.com/atlas (free tier)
 - **Cloudinary** — https://cloudinary.com (free tier, for profile photos)
-- **PayPal Developer** — https://developer.paypal.com (sandbox for testing)
-- **Gmail** — for sending emails (needs an App Password, not your normal login)
 
 ---
 
