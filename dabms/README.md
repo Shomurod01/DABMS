@@ -137,6 +137,4 @@ Then open **http://localhost:5173** in your browser.
 ## A few things to know
 
 - Node.js v18 or later is required (the project uses native `fetch`)
-- For Gmail, you need to create an **App Password** — go to your Google account → Security → 2-Step Verification → App passwords
-- PayPal sandbox lets you test payments without real money
 - Doctor accounts can only be created by an admin — they can't self-register
