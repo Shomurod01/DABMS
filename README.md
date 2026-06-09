@@ -37,7 +37,7 @@ Open `.env` and fill in your real values. At minimum you need:
 ```env
 PORT=5000
 NODE_ENV=development
-MONGODB_URI=mongodb+srv://youruser:yourpassword@cluster0.xxxxx.mongodb.net/dabms
+MONGODB_URI=mongodb://shomurodmamadjonov77_db_user:Fi1uPLbh961vkq2h@ac-itkvony-shard-00-00.33yzz3j.mongodb.net:27017,ac-itkvony-shard-00-01.33yzz3j.mongodb.net:27017,ac-itkvony-shard-00-02.33yzz3j.mongodb.net:27017/dabms?ssl=true&replicaSet=atlas-mfuy7o-shard-0&authSource=admin&appName=Cluster0
 JWT_SECRET=makethisalongrandomstring
 FRONTEND_URL=http://localhost:5173
 ```
@@ -53,7 +53,6 @@ copy .env.example .env
 
 ```env
 VITE_API_BASE_URL=http://localhost:5000/api
-VITE_PAYPAL_CLIENT_ID=your_paypal_sandbox_client_id
 ```
 
 ### 4. Create an admin account
