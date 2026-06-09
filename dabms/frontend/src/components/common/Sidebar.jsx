@@ -8,24 +8,18 @@ const Sidebar = ({ links, role }) => {
 
   const handleLogout = () => { logout(); navigate('/'); };
 
-  const roleColors = {
-    patient: 'from-teal-500 to-teal-700',
-    doctor:  'from-teal-600 to-cyan-700',
-    admin:   'from-slate-600 to-slate-800',
-  };
-
   return (
     <aside className="w-64 flex-shrink-0 hidden lg:flex flex-col h-screen sticky top-0 bg-white border-r border-slate-200">
       {}
       <div className="p-5 border-b border-slate-200">
         <div className="flex items-center gap-2.5">
-          <div className={`w-9 h-9 rounded-xl bg-gradient-to-tr ${roleColors[role] || roleColors.patient} flex items-center justify-center shadow-md transition-transform hover:scale-105`}>
+          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-teal-500 to-teal-700 flex items-center justify-center shadow-md shadow-teal-500/20 transition-transform hover:scale-105">
             <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M3 12h3l2-7 4 14 3-9 2 2h4" />
             </svg>
           </div>
           <span className="font-display text-xl font-bold tracking-tight text-dark">
-            Med<span className="text-primary font-light">Sync</span>
+            DAB<span className="text-primary font-light">MS</span>
           </span>
         </div>
       </div>

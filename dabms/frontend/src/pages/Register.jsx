@@ -27,7 +27,7 @@ const Register = () => {
               <span className="text-white font-bold text-2xl">+</span>
             </div>
             <h1 className="font-display text-3xl text-dark mb-1">Create account</h1>
-            <p className="text-muted text-sm">Join MedSync — it's free</p>
+            <p className="text-muted text-sm">Join DABMS — it's free</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-4">

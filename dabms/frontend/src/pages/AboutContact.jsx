@@ -2,7 +2,7 @@
 export const About = () => (
   <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 animate-fade-in">
     <div className="text-center mb-14">
-      <h1 className="font-display text-5xl text-dark mb-4">About MedSync</h1>
+      <h1 className="font-display text-5xl text-dark mb-4">About DABMS</h1>
       <p className="text-muted text-lg max-w-xl mx-auto">
         A modern healthcare appointment platform built with the MERN stack.
       </p>
@@ -12,7 +12,7 @@ export const About = () => (
       <div className="card">
         <h2 className="font-display text-2xl text-dark mb-3">Our Mission</h2>
         <p className="text-muted leading-relaxed">
-          MedSync was built to eliminate the friction in healthcare scheduling. We replace phone calls and paper notebooks with an intelligent, real-time booking platform that connects patients directly with verified specialists.
+          DABMS was built to eliminate the friction in healthcare scheduling. We replace phone calls and paper notebooks with an intelligent, real-time booking platform that connects patients directly with verified specialists.
         </p>
       </div>
       <div className="card">
@@ -53,7 +53,7 @@ export const Contact = () => {
       </div>
 
       <div className="grid grid-cols-3 gap-4 mb-10">
-        {[['Email', 'support@medsync.com'], ['Phone', '+48 123-456789'], ['Location', 'Warsaw, Poland']].map(([label, val]) => (
+        {[['Email', 'support@dabms.com'], ['Phone', '+48 123-456789'], ['Location', 'Warsaw, Poland']].map(([label, val]) => (
           <div key={label} className="card text-center py-5">
             <p className="text-muted text-xs">{label}</p>
             <p className="text-dark text-xs font-medium mt-1">{val}</p>

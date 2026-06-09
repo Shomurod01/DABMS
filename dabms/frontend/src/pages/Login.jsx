@@ -35,7 +35,7 @@ const Login = () => {
               </svg>
             </div>
             <h1 className="font-display text-3xl text-dark mb-1">Welcome back</h1>
-            <p className="text-muted text-sm">Sign in to your MedSync account</p>
+            <p className="text-muted text-sm">Sign in to your DABMS account</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-5">

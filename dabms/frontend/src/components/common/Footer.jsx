@@ -13,7 +13,7 @@ const Footer = () => (
               </svg>
             </div>
             <span className="font-display text-2xl font-bold tracking-tight text-dark">
-              Med<span className="text-primary font-light">Sync</span>
+              DAB<span className="text-primary font-light">MS</span>
             </span>
           </Link>
           <p className="text-muted text-sm leading-relaxed">
@@ -51,7 +51,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-slate-200 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
-        <p className="text-muted text-sm">© {new Date().getFullYear()} MedSync. All rights reserved.</p>
+        <p className="text-muted text-sm">© {new Date().getFullYear()} DABMS. All rights reserved.</p>
         <p className="text-slate-400 text-xs">Built with MERN Stack · Secured with JWT</p>
       </div>
     </div>
